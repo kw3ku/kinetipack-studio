@@ -9,7 +9,7 @@ YouTube, Shorts, Reels, TikTok and LinkedIn.
 It's free and open source (MIT). Use it for your channel, your podcast, your
 startup, or your clients' work.
 
-<!-- TODO: add a showreel GIF here: npm run demo, then convert brands/example-sharp/out/preview/showreel-16x9.mp4 -->
+![One engine, three brands: Northline, Harbour and Pop Club rendered from their brand.json files](media/demo.gif)
 
 ## Quick start
 

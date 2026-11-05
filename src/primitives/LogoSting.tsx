@@ -43,7 +43,10 @@ export const LogoSting: React.FC<{ tagline: string }> = ({ tagline }) => {
           const p = spring({ frame: frame - lettersStart - i * 2, fps, config: { damping: 14, stiffness: 160 } });
           return (
             <span key={i} style={{ display: "inline-block", overflow: "hidden", lineHeight: 1.1 }}>
-              <span style={{ display: "inline-block", transform: `translateY(${(1 - p) * 110}%)` }}>{ch}</span>
+              <span style={{ display: "inline-block", transform: `translateY(${(1 - p) * 110}%)` }}>
+                {/* A plain space collapses to nothing inside an inline-block. */}
+                {ch === " " ? "\u00A0" : ch}
+              </span>
             </span>
           );
         })}

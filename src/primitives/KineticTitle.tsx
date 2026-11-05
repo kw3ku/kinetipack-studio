@@ -8,8 +8,10 @@ export const KineticTitle: React.FC<{ lines: string[]; kicker?: string }> = ({ l
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   const b = useBrand();
-  const { unit, portrait, safe } = useLayout();
-  const size = (portrait ? 128 : 150) * unit;
+  const { width, height, unit, portrait, safe } = useLayout();
+  // Square frames are short as well as narrow, so long titles need a smaller size there.
+  const square = !portrait && width / height < 1.3;
+  const size = (portrait ? 128 : square ? 112 : 150) * unit;
   const exitStart = durationInFrames - b.dur.base;
 
   let index = 0;

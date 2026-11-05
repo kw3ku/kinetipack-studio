@@ -1,0 +1,17 @@
+{
+  "id": "example-sharp",
+  "name": "Northline",
+  "logo": null,
+  "colors": { "bg": "#0E0F12", "fg": "#F3EFE6", "accent": "#FF5A36", "accent2": "#3B5BFF", "muted": "#7C7F88" },
+  "fonts": { "display": "Space Grotesk", "body": "Inter" },
+  "feel": "sharp",
+  "corners": "sharp",
+  "transition": "bands",
+  "copy": {
+    "tagline": "Stories from the build",
+    "title": { "kicker": "New series", "lines": ["Make it move.", "Make it yours."] },
+    "person": { "name": "Your Name", "role": "Creator · Your City" },
+    "pitch": { "kicker": "This week", "lines": ["One idea.", "Shipped."] },
+    "end": { "heading": "Watch next", "cta": "Subscribe" }
+  }
+}

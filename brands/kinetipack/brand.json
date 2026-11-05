@@ -1,0 +1,17 @@
+{
+  "id": "kinetipack",
+  "name": "Kinetipack",
+  "logo": null,
+  "colors": { "bg": "#0E0F12", "fg": "#F3EFE6", "accent": "#FF5A36", "accent2": "#3B5BFF", "muted": "#7C7F88" },
+  "fonts": { "display": "Space Grotesk", "body": "Inter" },
+  "feel": "sharp",
+  "corners": "sharp",
+  "transition": "bands",
+  "copy": {
+    "tagline": "Your brand in motion",
+    "title": { "kicker": "Open source", "lines": ["Make it move.", "Make it yours."] },
+    "person": { "name": "Kinetipack Studio", "role": "Free · MIT licence" },
+    "pitch": { "kicker": "One file", "lines": ["Every format.", "Every brand."] },
+    "end": { "heading": "Try it", "cta": "Star on GitHub" }
+  }
+}

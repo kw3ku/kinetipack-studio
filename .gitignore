@@ -1,0 +1,10 @@
+node_modules/
+brands/*/out/
+public/packs/
+.DS_Store
+# Your own brands stay local unless you choose to share them.
+brands/*
+!brands/README.md
+!brands/example-*/
+!brands/kinetipack/
+out/

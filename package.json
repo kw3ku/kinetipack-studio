@@ -1,0 +1,27 @@
+{
+  "name": "kinetipack-studio",
+  "version": "0.1.0",
+  "description": "Brand-driven motion graphics for creators: intros, titles, lower thirds, transitions and end screens from one brand.json, in every video format.",
+  "license": "MIT",
+  "author": "Kwaku Dompreh",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "pack": "node scripts/make-pack.mjs",
+    "sounds": "node scripts/make-sounds.mjs",
+    "typecheck": "tsc",
+    "demo": "node scripts/make-pack.mjs brands/example-sharp --quick",
+    "story": "remotion render src/index.ts Story-1x1 out/story-1x1.mp4 && remotion render src/index.ts Story-16x9 out/story-16x9.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.300",
+    "@remotion/google-fonts": "4.0.300",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.300"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}

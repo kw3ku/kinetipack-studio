@@ -1,0 +1,17 @@
+{
+  "id": "example-bouncy",
+  "name": "Pop Club",
+  "logo": null,
+  "colors": { "bg": "#1B1035", "fg": "#FFF8E7", "accent": "#FFD23F", "accent2": "#EE4266", "muted": "#9C8FBF" },
+  "fonts": { "display": "Bricolage Grotesque", "body": "DM Sans" },
+  "feel": "bouncy",
+  "corners": "round",
+  "transition": "iris",
+  "copy": {
+    "tagline": "Weekend projects for curious kids",
+    "title": { "kicker": "Let's make", "lines": ["Paper", "rockets!"] },
+    "person": { "name": "Kofi", "role": "Maker · Pop Club" },
+    "pitch": { "kicker": "You'll need", "lines": ["Paper.", "Tape.", "A big sky."] },
+    "end": { "heading": "Make this next", "cta": "Join the club" }
+  }
+}

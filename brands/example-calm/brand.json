@@ -1,0 +1,17 @@
+{
+  "id": "example-calm",
+  "name": "Harbour",
+  "logo": null,
+  "colors": { "bg": "#FEF9F4", "fg": "#1E2B3C", "accent": "#E87A2A", "accent2": "#F5B841", "muted": "#5A6A7A" },
+  "fonts": { "display": "Fraunces", "body": "Inter" },
+  "feel": "calm",
+  "corners": "round",
+  "transition": "blinds",
+  "copy": {
+    "tagline": "Slow mornings, good coffee",
+    "title": { "kicker": "Episode 1", "lines": ["Start with", "the basics."] },
+    "person": { "name": "Ama Mensah", "role": "Host · Podcast" },
+    "pitch": { "kicker": "In this episode", "lines": ["Beans.", "Water.", "Patience."] },
+    "end": { "heading": "Listen next", "cta": "Follow" }
+  }
+}
